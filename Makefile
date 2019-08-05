@@ -12,4 +12,4 @@ all: 001
 	$(CC) $(CFLAGS) -o out/001 001.c
 
 clean veryclean:
-	$(RM) Hello
+	$(RM) -r out
