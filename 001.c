@@ -6,9 +6,7 @@ int lock1;
 int lock2;
 int lock3;
 
-int something() {
-  return 0;
-}
+int something();
 
 void mutex_lock(int *lock) { }
 void mutex_unlock(int *lock) { }
